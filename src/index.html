@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-black">
+    <header id="header">
+        <div class="bg-black border-b-2 border-purple-800 flex w-full sticky px-3 md:px-20 py-4">
+            <div class="container flex items-center mx-auto">
+                <div>
+                    <a href="./"><img class="h-10" src="./img/logo.png" alt="logo"></a>
+                </div>
+                <div class="flex justify-end flex-1 md:hidden text-3xl">
+                    <a href="javascript:;"><i id="sm-menu" class="fas fa-bars text-white"></i></a>
+                </div>
+                <div class="items-end flex-1 text-white font-bold hidden md:flex">
+                    <nav class="flex-1">
+                        <ul class="flex justify-end flex-1">
+                            <li class="px-4">
+                                <a href="./" class="hover:text-purple-800  text-sm">Home</a>
+                            </li>
+                            <li class="px-4">
+                                <a href="#" class="hover:text-purple-800 text-sm">About</a>
+                            </li>
+                            <li class="px-4">
+                                <a href="#" class="hover:text-purple-800 text-sm">Projects</a>
+                            </li>
+                        </ul>  
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="main-session">
+        <section class="bg-zinc-800 grid grid-cols-4">
+            <div class="p-2 py-6">
+                <img src="./img/me.jpeg" class="z-0 md:w-40 md:h-40 m-10 rounded-full border-purple-800 border-4">
+            </div>
+            <div class="m-6 ml-20 sm:mt-20 col-span-3">
+                <h6 id="welcome-text" class="text-white text-2xl">
+                Hi, my name is Igor Tiburcio Cavalcanti.
+                </h6>
+                <p id="presentation-text" class="text-white mt-4">
+                I'm a novice full-stack programmer. I currently study JavaScript, TypeScript and NodeJS. I'm always looking for new challenges. What do you think about getting to know a little about my portfolio?
+                </p>
+            </div>
+        </section>
+        <section class="flex bg-purple-900">
+            <h6 id="welcome-text" class="mx-auto mt-4 text-white text-2xl">
+                These are my favorite projects
+            </h6>
+        </section>
+        <section class="bg-purple-900 grid md:grid-cols-3">
+            <div class="bg-white mx-auto m-8 animate-fadeTop1 max-w-sm rounded shadow-lg">
+                <img class="w-full border border-b-2 border-black" src="./img/projects/finans-site.png" alt="Finans App">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                    <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                    </p>
+                </div>
+            </div>
+            <div class="animate-fadeTop2 mx-auto bg-white m-8 max-w-sm rounded shadow-lg">
+                <img class="w-full border border-b-2 border-black" src="./img/projects/finans-site.png" alt="Finans App">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                    <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                    </p>
+                </div>
+            </div>
+            <div class="mx-auto animate-fadeTop3 bg-white m-8 max-w-sm rounded shadow-lg">
+                <img class="w-full border border-b-2 border-black" src="./img/projects/finans-site.png" alt="Finans App">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                    <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+
+    </footer>
+    <script src="./js/script.js" type="module"></script>
+</body>
+</html>

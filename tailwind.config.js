@@ -14,7 +14,7 @@ module.exports = {
         'green-main': '#1ED760'
       },
       backgroundImage: theme => ({
-        'light-theme-bg': "url('/img/bg2.jpg')"
+        'light-theme-bg': "url('../img/bg.jpg')"
       }),
       backgroundSize: {
         '175%': '175%',
